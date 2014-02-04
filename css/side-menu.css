@@ -10,6 +10,7 @@ body {
 /*
 Add transition to containers so they can push in and out.
 */
+
 #layout,
 #menu,
 .menu-link {
@@ -84,7 +85,7 @@ appears on the left side of the page.
 
 #menu {
     margin-left: -150px; /* "#menu" width */
-    width: 150px;
+    width: 190px;
     position: fixed;
     top: 0;
     left: 0;
