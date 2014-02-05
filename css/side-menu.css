@@ -52,6 +52,7 @@ The content `<div>` is where all your content goes.
 }
 
 .header {
+    background-image: url('');
      margin: 0;
      color: #333;
      text-align: center;
@@ -101,9 +102,10 @@ appears on the left side of the page.
     #menu a {
         background-color:white;
         font-family: 'Pathway Gothic One', sans-serif;
+        font-size:16px;
         color: #103e94;
         border: none;
-        padding: 0.6em 0 0.6em 0.6em;
+        padding: 1em 0 1em 1em;
     }
 
     /*
@@ -127,7 +129,7 @@ appears on the left side of the page.
         */
         #menu .pure-menu li a:hover,
         #menu .pure-menu li a:focus {
-            background: #333;
+            background: #CCFFFF;
         }
 
     /*
@@ -270,8 +272,7 @@ body {padding:50px 10px 10px}
 #logo{
 width:20%;
 display: block;
-margin-left: auto;
-margin-right: auto;
+margin:auto;
 }
 #name_head{
 
