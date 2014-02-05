@@ -57,7 +57,7 @@ h1 {
 
 h2 {
     font-size: 1.5em;
-    margin: .83em 0
+    margin: .83em 2em
 }
 
 h3 {
@@ -89,7 +89,7 @@ b,strong {
 }
 
 blockquote {
-    margin: 1em 40px
+    margin: 1em 3em
 }
 
 dfn {
@@ -108,7 +108,7 @@ mark {
 }
 
 p,pre {
-    margin: 1em 0
+    margin: 1em 3em
 }
 
 code,kbd,pre,samp {
