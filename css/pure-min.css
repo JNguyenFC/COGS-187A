@@ -17,9 +17,12 @@ margin-left: 3em;
 }
 
 .image1{
-width:35%;
-float:right;
-margin-right: 15em;
+  float:right;
+  margin-right:250px;
+  width: 200px;
+  height: 200px;
+  display: block;
+  border-radius: 100px;
 }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary {
