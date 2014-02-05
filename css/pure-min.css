@@ -9,6 +9,19 @@ normalize.css v1.1.2 | MIT License | git.io/normalize
 Copyright (c) Nicolas Gallagher and Jonathan Neal
 */
 /*! normalize.css v1.1.2 | MIT License | git.io/normalize */
+
+div.text{
+float:left;
+width:450px;
+margin-left: 3em;
+}
+
+.image1{
+width:35%;
+float:right;
+margin-right: 15em;
+}
+
 article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary {
     display: block
 }
