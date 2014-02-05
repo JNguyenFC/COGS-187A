@@ -60,6 +60,7 @@ h2 {
     font-size: 1.5em;
     margin: .83em 2em
     font-family: 'Pathway Gothic One', sans-serif;
+    margin-left: 50px;
 }
 
 h3 {
@@ -88,7 +89,11 @@ abbr[title] {
 
 b,strong {
     font-weight: 700;
+<<<<<<< HEAD
     margin:20px;
+=======
+    margin: 20px;
+>>>>>>> 7bd69748c7f11f289fd4f91a4a44ed35e626ef40
 }
 
 blockquote {
@@ -286,7 +291,7 @@ table {
     *color: #444;
     border: 1px solid #999;
     border: 0 rgba(0,0,0,0);
-    background-color: #E6E6E6;
+    background-image: #E6E6E6;
     text-decoration: none;
     border-radius: 2px;
     -webkit-transition: .1s linear -webkit-box-shadow;
