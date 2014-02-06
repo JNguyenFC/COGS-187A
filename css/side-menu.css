@@ -129,7 +129,7 @@ appears on the left side of the page.
         */
         #menu .pure-menu li a:hover,
         #menu .pure-menu li a:focus {
-            background: #BAD6F3;
+            background: #83A5A6;
         }
 
     /*
@@ -262,10 +262,11 @@ body {padding:50px 10px 10px}
 .toggle-footer-btn {text-decoration:none;clear:both;}
 
 .footer {
+    margin-left:2%;
     background-color:#83A5A6;
     color:white;
     padding:20px;
-    height:20px;
+    height:10px;
     display:none;
     clear:both;
 }
