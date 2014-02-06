@@ -66,7 +66,7 @@ The content `<div>` is where all your content goes.
     }
      .header h2 {
         font-weight: 300;
-        color: #ccc;
+        color: #333;
         padding: 0;
         margin-top: 0;
     }
@@ -129,7 +129,7 @@ appears on the left side of the page.
         */
         #menu .pure-menu li a:hover,
         #menu .pure-menu li a:focus {
-            background: #CCFFFF;
+            background: #BAD6F3;
         }
 
     /*

@@ -56,8 +56,8 @@ html,button,input,select,textarea {
 }
 
 body {
-    margin: 0
-        
+    margin: 0;
+    background-image:url('../../COGS-187A/img/brickwall.png');   
 }
 
 a:focus {
