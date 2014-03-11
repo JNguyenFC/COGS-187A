@@ -1301,7 +1301,6 @@ background-color:#95643B;
         
 .shopname h3{
         font-size:35px;
-
     }
         
         h3 {
@@ -1319,6 +1318,7 @@ background-color:#95643B;
             
 .about {
                 padding:30px;
+<<<<<<< HEAD
             }
 			
 .userratingdata {
@@ -1334,3 +1334,27 @@ background-color:#95643B;
 	font-size:16px;
 }
 
+||||||| merged common ancestors
+            }
+=======
+            }
+            
+.about img {
+    height:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+            }
+#features h3 {
+    color:black;
+    text-transform:none;
+    letter-spacing:normal;
+    font-family:sans-serif;
+    font-size:17px;
+    font-weight:200;
+    padding-bottom:40px;
+    width:100%;
+    text-align:center;
+            }
+                
+>>>>>>> 2ad0a855e279e6894682e91b5a98fabb220b2982
