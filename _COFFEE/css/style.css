@@ -1320,3 +1320,17 @@ background-color:#95643B;
 .about {
                 padding:30px;
             }
+			
+.userratingdata {
+	float:left;
+	width:540px;
+	padding:20px 0 20px 20px;
+	border-top:solid 1px #FFF;
+}
+
+.userratinghead {
+	padding:0 0 10px 0;
+	border-bottom:solid 1px #CCC;
+	font-size:16px;
+}
+
