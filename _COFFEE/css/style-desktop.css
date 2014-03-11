@@ -200,7 +200,7 @@
 
 				#nav > ul > li > a > span
 				{
-					font-size: 0.85em;
+					font-size: 1em;
 					letter-spacing: 3px;
 				}
 
@@ -212,7 +212,7 @@
 	.dropotron
 	{
 		text-align: left;
-		border: solid 1px #e5e5e5;
+
 		border-radius: 4px;
 		background: #fff;
 		background: rgba(255,255,255,0.965);
@@ -270,17 +270,19 @@
 		{
 			border-top: 0;
 			padding-top: 0;
+            text-decoration:none;
 		}
 		
 		.dropotron li:hover > span,
 		.dropotron li:hover > a
 		{
-			color: white;
-			-moz-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
-			-webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
-			-o-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
-			-ms-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
-			transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+			color: black;
+			-moz-transition: color 0.25s ease-in-out, border-bottom-color 0.20s ease-in-out;
+			-webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.20s ease-in-out;
+			-o-transition: color 0.25s ease-in-out, border-bottom-color 0.20s ease-in-out;
+			-ms-transition: color 0.25s ease-in-out, border-bottom-color 0.20s ease-in-out;
+			transition: color 0.25s ease-in-out, border-bottom-color 0.20s ease-in-out;
+            text-decoration:none;
 		}
 
 	
@@ -383,3 +385,6 @@
 		padding-top: 4em;
 	}
 
+a {
+    color:black;
+}

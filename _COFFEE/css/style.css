@@ -1042,7 +1042,8 @@
 
 .panel .badge {
     text-align:left;
-    background-color:#CACACA;
+    background-color:white;
+    color:black;
 }
 
 /*********************************************************************************/
@@ -1052,7 +1053,8 @@
 	#header
 	{
 		position: relative;
-            background-color:#855C33;
+            background-color:#67432D;
+    background-image:url('images/darkwood.jpg');
 
 	}
 
@@ -1073,12 +1075,10 @@
 		{
 			text-transform: uppercase;
 			font-weight: 400;
-			color: #888;
+			color: black;
+    font-size:20px;
 		}
 
-        #header h2 {
-            margin-bottom:40px;
-}
 
 /*********************************************************************************/
 /* Nav                                                                           */
@@ -1149,16 +1149,22 @@
 					#nav > ul > li:hover > a:before
 					{
 						background: white;
-						color: #fff;
-                                text-align:center;
+						color:#422E1A;
+                         text-align:center;
 					}
 			
 					#nav > ul > li.active > a > span,
 					#nav > ul > li:hover > a > span
 					{
-						color: white;
+						color:#422E1A;
 					}
 
+
+.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:hover, .nav-tabs.nav-justified>.active>a:focus {
+ border:0px;
+    background-color:black;
+    border-radius:0;
+}
 /*********************************************************************************/
 /* Features                                                                      */
 /*********************************************************************************/
@@ -1250,8 +1256,46 @@ h1 a:hover, a:focus {
 .panel-title img{
     height:30px;
 }
+.panel-default>.panel-heading{
+    background-color:#A98257;
+    border-radius:0;
+    border:transparent;
+}
+
+.panel-default {
+    border-radius:0;
+    border:2px black;
+}
+
 
 @media (min-width: 768px) {
   .nav-tabs.nav-justified > li > a {
     border-radius: 4px 4px 0 0;
+        border-bottom:none;
+        border:none;
   }
+    
+    
+@media (min-width: 768px) {
+  .nav-tabs-justified > li > a:active {
+    background-color:red;
+  }
+        
+        
+.shopname {
+        text-align:center;
+background-color:#95643B;
+        }
+        
+.shopname h3{
+        font-size:35px;
+
+    }
+        
+        h3 {
+            margin-top:0;
+            margin-bottom:0;
+            color:white;
+            letter-spacing:5px;
+            padding:15px;
+        }
