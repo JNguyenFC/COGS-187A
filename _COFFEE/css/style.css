@@ -1301,7 +1301,6 @@ background-color:#95643B;
         
 .shopname h3{
         font-size:35px;
-
     }
         
         h3 {
@@ -1320,3 +1319,22 @@ background-color:#95643B;
 .about {
                 padding:30px;
             }
+            
+.about img {
+    height:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+            }
+#features h3 {
+        color:black;
+         text-transform:none;
+          letter-spacing:normal;
+           font-family:sans-serif;
+        font-size:15px;
+         font-weight:200;
+                padding-bottom:40px;
+                width:100%;
+                text-align:center;
+            }
+                
