@@ -1148,7 +1148,7 @@
 					#nav > ul > li.active > a:before,
 					#nav > ul > li:hover > a:before
 					{
-						background: white;
+						background-color: white;
 						color:#422E1A;
                          text-align:center;
 					}
@@ -1156,14 +1156,16 @@
 					#nav > ul > li.active > a > span,
 					#nav > ul > li:hover > a > span
 					{
-						color:#422E1A;
+						color:#A98257;
 					}
 
 
 .nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:hover, .nav-tabs.nav-justified>.active>a:focus {
  border:0px;
-    background-color:black;
+background-color:#A98257;
     border-radius:0;
+    color:white;
+    		cursor: default;
 }
 /*********************************************************************************/
 /* Features                                                                      */
@@ -1257,33 +1259,43 @@ h1 a:hover, a:focus {
     height:30px;
 }
 .panel-default>.panel-heading{
-    background-color:#A98257;
+    background-color:white;
     border-radius:0;
-    border:transparent;
+    border:white;
 }
 
 .panel-default {
     border-radius:0;
-    border:2px black;
 }
 
+.panel {
+    box-shadow:0;
+    -webkit-box-shadow:0;
+}
 
 @media (min-width: 768px) {
   .nav-tabs.nav-justified > li > a {
-    border-radius: 4px 4px 0 0;
+    border-radius:0;
         border-bottom:none;
         border:none;
+        text-transform:uppercase;
+        letter-spacing:3px;
   }
-    
+@media (min-width: 768px) {
+  .nav-tabs.nav-justified > li > a:hover {
+         background-color:#A98257;
+            color:white;
+            text-transform:uppercase;
+            letter-spacing:3px;
+        }
     
 @media (min-width: 768px) {
   .nav-tabs-justified > li > a:active {
-    background-color:red;
   }
         
         
 .shopname {
-        text-align:center;
+text-align:center;
 background-color:#95643B;
         }
         
