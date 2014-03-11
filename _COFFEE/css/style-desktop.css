@@ -150,13 +150,14 @@
 
 	#header
 	{
-		padding: 14em 0 7em 0;
+		padding: 9em 0 7em 0;
 	}
 	
 		#header h1
 		{
 			font-size: 3em;
 			letter-spacing: 13px;
+            text-align:center;
 		}
 		
 		#header p
@@ -164,6 +165,8 @@
 			margin: 2.5em 0 0 0;
 			font-size: 0.85em;
 			letter-spacing: 3px;
+            text-align:center;
+        color:white;
 		}
 
 /*********************************************************************************/
@@ -192,6 +195,7 @@
 			#nav > ul > li > a
 			{
 				display: block;
+    color:white;
 			}
 
 				#nav > ul > li > a > span
@@ -271,7 +275,7 @@
 		.dropotron li:hover > span,
 		.dropotron li:hover > a
 		{
-			color: #ed786a;
+			color: white;
 			-moz-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 			-webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 			-o-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
@@ -378,3 +382,4 @@
 		margin-top: 6em;
 		padding-top: 4em;
 	}
+
