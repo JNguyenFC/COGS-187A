@@ -1075,7 +1075,7 @@
 		{
 			text-transform: uppercase;
 			font-weight: 400;
-			color: black;
+			color: #A98257;
     font-size:20px;
 		}
 
@@ -1311,3 +1311,12 @@ background-color:#95643B;
             letter-spacing:5px;
             padding:15px;
         }
+            
+ .about p {
+        font-style:italic;
+                font-size:18px;
+            }
+            
+.about {
+                padding:30px;
+            }
