@@ -1334,10 +1334,6 @@ background-color:#95643B;
 	font-size:16px;
 }
 
-||||||| merged common ancestors
-            }
-=======
-            }
             
 .about img {
     height:200px;
@@ -1357,4 +1353,17 @@ background-color:#95643B;
     text-align:center;
             }
                 
->>>>>>> 2ad0a855e279e6894682e91b5a98fabb220b2982
+
+.ratingcontainer {
+    width: 50px;
+    height: 30px;
+	float: right;
+	margin-top: 35px;
+
+}
+
+.ratingcontainer img{
+width:100%;
+height:auto;
+}
+
