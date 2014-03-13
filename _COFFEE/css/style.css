@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-
-
-
-	body,input,textarea,select
+body,input,textarea,select
 	{
 		font-family: 'Source Sans Pro';
 		font-weight: 300;
@@ -1436,11 +1432,7 @@ margin-top:15px;
   	-o-background-size: cover;
   	background-size: cover;
 }
-=======
-
-
-
-	body,input,textarea,select
+body,input,textarea,select
 	{
 		font-family: 'Source Sans Pro';
 		font-weight: 300;
@@ -2892,6 +2884,3 @@ margin:0;
 display:block;
 text-align:left;
 }
-
-
->>>>>>> FETCH_HEAD
