@@ -1,6 +1,3 @@
-@charset 'UTF-8';
-
-@font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
 
 
 
@@ -25,7 +22,7 @@
 			text-decoration: none;
 			border: 0;
 		}
-
+		
 	a
 	{
 		color: #666;
@@ -1324,7 +1321,6 @@ background-color:#95643B;
             
 .about {
                 padding:30px;
-<<<<<<< HEAD
             }
 			
 .userratingdata {
@@ -1373,6 +1369,7 @@ width:100%;
 height:auto;
 }
 
+<<<<<<< HEAD
 .user{
 width: 40px;
 }
@@ -1419,3 +1416,17 @@ border: 2px solid black;
 float:right;
 margin-top:15px;
 }
+||||||| merged common ancestors
+=======
+.contacthours {
+	font-weight:bold;
+}
+
+.birdrockcontact {
+	 background: url(images/birdrock_contact.png) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+>>>>>>> 3cf7411bc6a1e4639aa4ef86da933b236bf6b8c4
