@@ -1427,6 +1427,11 @@ float:right;
 margin-top:15px;
 }
 
+#rating img {
+	float:right;
+	width:6%;
+}
+
 .contacthours {
 	font-weight:bold;
 }
