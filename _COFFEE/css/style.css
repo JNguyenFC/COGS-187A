@@ -1050,11 +1050,15 @@
 /* Header                                                                        */
 /*********************************************************************************/
 	
+	.indexselect {
+	height: 100vh;
+	}
+	
 	#header
 	{
 		position: relative;
-            background-color:#67432D;
-    background-image:url('images/darkwood.jpg');
+        background-color:#67432D;
+		
 
 	}
 
@@ -1078,6 +1082,8 @@
 			color: #A98257;
     font-size:20px;
 		}
+		
+
 
 
 /*********************************************************************************/
@@ -1323,7 +1329,7 @@ background-color:#95643B;
 			
 .userratingdata {
 	float:left;
-	width:540px;
+	width:960px;
 	padding:20px 0 20px 20px;
 	border-top:solid 1px #FFF;
 }
@@ -1367,3 +1373,49 @@ width:100%;
 height:auto;
 }
 
+.user{
+width: 40px;
+}
+
+#buttonintro{
+position: absolute;
+top:85%;
+margin-left:-50px;
+height:5%;
+}
+
+.wrapper{
+text-align:center;
+}
+
+.tabledirectory{
+border-radius:1em;
+border:2px solid black;
+width:20%;
+padding: 1em;
+float:right;
+}
+
+#checkbox{
+float:right;
+margin-top:-20px;
+width:10%;
+height:10%;
+padding: 2px;
+}
+
+#missionstatement{
+float:left;
+}
+
+#itemsummary{
+background-color:#F4F0CB;
+padding: 1em;
+text-color:white;
+border: 2px solid black;
+}
+
+#rating{
+float:right;
+margin-top:15px;
+}
