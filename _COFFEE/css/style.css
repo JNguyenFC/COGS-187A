@@ -1363,6 +1363,10 @@ width:100%;
 height:auto;
 }
 
+.contacthours {
+	font-weight:bold;
+}
+
 .birdrockcontact {
 	 background: url(images/birdrock_contact.png) no-repeat center center fixed; 
   	-webkit-background-size: cover;
