@@ -1424,16 +1424,15 @@ text-color:white;
 
 #rating{
 float:right;
-margin-top:15px;
+margin-top:17px;
 }
 
-#rating img {
+.ratingimg {
+	width:3%;
 	float:right;
-	width:6%;
-	height:6%;
+	margin-top:10px;
 }
 
-}
 .contacthours {
 	font-weight:bold;
 }
