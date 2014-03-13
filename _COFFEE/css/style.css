@@ -1136,6 +1136,7 @@
 					-o-transition: color 0.25s ease-in-out;
 					-ms-transition: color 0.25s ease-in-out;
 					transition: color 0.25s ease-in-out;
+    color:#E5DACD;
 				}
 
 			#nav > ul > li.active,
@@ -1283,6 +1284,7 @@ h1 a:hover, a:focus {
         border:none;
         text-transform:uppercase;
         letter-spacing:3px;
+        background-color:#E5DACD;
   }
 @media (min-width: 768px) {
   .nav-tabs.nav-justified > li > a:hover {
@@ -1385,11 +1387,12 @@ text-align:center;
 }
 
 .tabledirectory{
-border-radius:1em;
 border:2px solid black;
 width:20%;
 padding: 1em;
 float:right;
+display:block;
+margin-top:30px;
 }
 
 #checkbox{
@@ -1398,16 +1401,21 @@ margin-top:-20px;
 width:10%;
 height:10%;
 padding: 2px;
+display:inline-block;
 }
 
 #missionstatement{
 float:left;
+display:block;
+padding-top:30px;
+width: 74%;
+font-size:23px;
+
 }
 
 #itemsummary{
 background-color:#F4F0CB;
 padding: 1em;
-text-color:white;
 border: 2px solid black;
 }
 
@@ -1415,8 +1423,7 @@ border: 2px solid black;
 float:right;
 margin-top:15px;
 }
-||||||| merged common ancestors
-=======
+
 .contacthours {
 	font-weight:bold;
 }
@@ -1428,4 +1435,3 @@ margin-top:15px;
   	-o-background-size: cover;
   	background-size: cover;
 }
->>>>>>> 3cf7411bc6a1e4639aa4ef86da933b236bf6b8c4
