@@ -1324,7 +1324,7 @@ background-color:#95643B;
             }
 			
 #homestatement{
-margin-top:10%;
+margin-top:5%;
 padding:0 7em 0 7em;
 text-align:center;
 font-size:13px;
@@ -1409,6 +1409,8 @@ border:2px solid black;
 width:20%;
 padding: 1em;
 float:right;
+display: block;
+margin-top:30px;
 }
 
 #checkbox{
@@ -1421,6 +1423,10 @@ padding: 2px;
 
 #missionstatement{
 float:left;
+display: block;
+padding-top: 30px;
+width: 74%;
+font-size: 23px;
 }
 
 #itemsummary{
@@ -1468,7 +1474,7 @@ margin-left:5px;
 }
 
 #logo{
-width:30%;
+width:20%;
 
 }
 
