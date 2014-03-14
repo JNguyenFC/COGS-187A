@@ -1454,4 +1454,8 @@ display:block;
 text-align:left;
 }
 
+.contacthover a:hover {
+	  opacity:0.6;
+}
+
 
