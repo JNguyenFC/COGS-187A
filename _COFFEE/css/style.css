@@ -1270,6 +1270,7 @@ h1 a:hover, a:focus {
     border-radius:0;
 }
 
+
 .panel {
     box-shadow:0;
     -webkit-box-shadow:0;
@@ -1466,6 +1467,7 @@ padding:15px;
 margin:0;
 display:block;
 text-align:left;
+        
 }
 
 .ratingnew{
