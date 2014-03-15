@@ -1338,6 +1338,7 @@ color:white;
 .userratingdata {
 	float:left;
 	width:960px;
+	/* width:90%; */
 	padding:20px 0 20px 20px;
 	border-top:solid 1px #FFF;
 }
@@ -1485,3 +1486,5 @@ text-align:center;
 #allthebest{
 margin-top:-2%;F
 }
+
+.galleria{ width: 560px; height: 400px; background: #000 }
