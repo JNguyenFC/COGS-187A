@@ -1517,3 +1517,12 @@ padding-left:4%;
 margin-right:5%;
 padding-bottom:2%;
             }
+            
+.tabledirectory ul li a {
+        color:#95643B;
+}
+            
+.tabledirectory ul li a:hover {
+        color:#A98257;
+       text-decoration:none;
+}
