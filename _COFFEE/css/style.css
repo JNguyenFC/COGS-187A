@@ -1507,7 +1507,8 @@ text-transform:uppercase;
     margin-left:auto;
             }
 .panel#menu {
-        display:inline;
+        display:inline-block;
+        vertical-align:top;
         width:220px;
             }
             
