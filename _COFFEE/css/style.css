@@ -1461,8 +1461,8 @@ margin-top:17px;
 
 #buttonintro a:hover
 		{
-			color:#67432D;
-			text-decoration:none;
+color:#67432D;
+text-decoration:none;
 		}
 
 #googlemap{
@@ -1473,10 +1473,9 @@ padding-top:12em;
 padding:15px;
 margin:0;
 text-align:left;
-width:330px;
-margin-left:10%;
-margin-right:5%;
-        
+width:300px;
+padding-left:10%;
+margin-right:5%;       
 }
 
 .ratingnew{
@@ -1507,3 +1506,7 @@ text-transform:uppercase;
     margin-top:50px;
     margin-left:auto;
             }
+.panel#menu {
+        display:inline-table;
+            }
+            
