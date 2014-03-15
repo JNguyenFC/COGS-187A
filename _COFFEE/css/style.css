@@ -1462,11 +1462,14 @@ margin-top:17px;
 padding-top:12em;
 	}
 
-.panel-body_contact{
+#panel-body_contact{
 padding:15px;
 margin:0;
-display:block;
+
 text-align:left;
+    width:330px;
+    margin-left:10%;
+    margin-right:5%;
         
 }
 
@@ -1489,4 +1492,11 @@ text-align:center;
 margin-top:-2%;F
 }
 
-.galleria{ width: 560px; height: 400px; background: #000 }
+.galleria{ 
+    width: 560px; 
+    height: 400px; 
+    background: #000;
+    margin-left:auto;
+                margin-right:auto;
+                margin-top:50px;
+            }
