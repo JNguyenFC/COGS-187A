@@ -1510,3 +1510,10 @@ text-transform:uppercase;
         display:inline-table;
             }
             
+.panel#contact {
+ width:33%;
+margin-left:5%;
+padding-left:4%;
+margin-right:5%;
+padding-bottom:2%;
+            }
